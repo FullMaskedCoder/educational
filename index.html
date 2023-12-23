@@ -1,0 +1,138 @@
+<!-- The first include should be config.php -->
+
+<!-- Retrieve all posts from database  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre|Noto+Serif|Tangerine" rel="stylesheet">
+	<!-- Styling for public area -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    
+    <link rel="shortcut icon" type="image/jpg" href="assets/img/ui-sam.jpg"/>
+
+    <script src="./ckeditor/ckeditor.js"></script>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/jpg" href="static/images/alltypesofcontent.png"/>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9870289775189954"
+     crossorigin="anonymous"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-212614040-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-212614040-1');
+</script>
+<script type="text/javascript">
+    adroll_adv_id = "U7T5NBDCNZE2XIPIC2I56H";
+    adroll_pix_id = "EC6A7KZHAZEN3C4SPBOSJV";
+    adroll_version = "2.0";
+
+    (function(w, d, e, o, a) {
+        w.__adroll_loaded = true;
+        w.adroll = w.adroll || [];
+        w.adroll.f = [ 'setProperties', 'identify', 'track' ];
+        var roundtripUrl = "https://s.adroll.com/j/" + adroll_adv_id
+                + "/roundtrip.js";
+        for (a = 0; a < w.adroll.f.length; a++) {
+            w.adroll[w.adroll.f[a]] = w.adroll[w.adroll.f[a]] || (function(n) {
+                return function() {
+                    w.adroll.push([ n, arguments ])
+                }
+            })(w.adroll.f[a])
+        }
+
+        e = d.createElement('script');
+        o = d.getElementsByTagName('script')[0];
+        e.async = 1;
+        e.src = roundtripUrl;
+        o.parentNode.insertBefore(e, o);
+    })(window, document);
+    adroll.track("pageView");
+</script>
+</head>
+<body>
+	<!-- container - wraps whole page -->
+	<div class="container">
+		<!-- banner -->
+		 <title>Posts | Login</title>
+ <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- jQuery UI library -->
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+<script>
+$(function() {
+    $("#school").autocomplete({
+        source: "./search.php",
+    });
+});
+</script>
+ <link rel="shortcut icon" type="image/jpg" href="/app//static/images/alltypesofcontent.png"/>
+ <link rel="stylesheet" href="static/css/dashboard_styling.css">
+ <div class="navbar">
+	<div class="logo_div">
+		<a href="index.php"><img src="/app//static/images/alltypesofcontent.png" width="50" height="50"></a>
+	</div>
+    <div class="logo_div">
+        <center><h1>For help call: 
+            none</h1></center>
+    </div>
+	<ul>
+	  <li><a class="active" href="index.php">Home</a></li>
+	  <li><a class="active" href="customer-support.php">Customer Support</a></li>
+	  <li><a class="active" href="/minecraft/">Minecraft Server Hosting</a></li>
+      <li><a class="active" href="remote-access-request.php">Remote Request</a></li>
+	</ul>
+</div>
+	<div class="banner">
+		<div class="welcome_msg">
+			<h1>All Types Of Content | Posts</h1>
+			<p> 
+			    Please enter your School Name, User ID, and Password to Login.
+			</p><br>
+          <p> 
+			    All Types Of Content Posts is a service that allows schools to post assignments online, make planners, online calanders, and other content!
+			</p>
+		</div>
+
+		<div class="login_div">
+			<form action="/app/index.php" method="post" >
+				<h2>Login</h2>
+				<div style="width: 60%; margin: 0px auto;">
+					                    				</div>
+				<input type="text" name="school" id="school" autocomplete="off" value="" placeholder="School Name">
+				<input type="text" name="username" value="" placeholder="User ID">
+				<input type="password" name="password"  placeholder="Password"> 
+				<button class="btn" type="submit" name="login_btn">Sign in</button>
+			</form>
+		</div>     
+	</div>
+
+		<!-- // banner -->
+
+		<!-- Page content -->
+		</div>
+		<!-- // Page content -->
+
+		<!-- footer -->
+				<div class="footer">
+		    <a href="./privacy.php" target="_blank">Privacy Policy</a> |
+		    <a href="./terms.php" target="_blank">Terms Of Service</a>
+			<p>alltypesofcontent, LLC &copy; 2023</p>
+		</div>
+		<!-- // footer -->
+
+	</div>
+	<!-- // container -->
+</body>
+</html>
+		<!-- // footer -->
